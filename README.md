@@ -1,12 +1,12 @@
-# 📱 Social Media Simulation in C
+# Social Media Simulation in C
 
-## 📝 Project Overview
+## Project Overview
 
 This project is a C program that simulates a simple social media platform, featuring user and post caching, user interactions like following and liking posts, and doubly linked lists for data management.
 
 ---
 
-## 🏛️ Key Features
+## Key Features
 
 User & Post Cache: Efficient data retrieval using LRU cache mechanism.
 
@@ -18,7 +18,7 @@ Print Followers in Reverse: Display the followers of each cached user in reverse
 
 ---
 
-## 🛠️ Key Functions
+## Key Functions
 
 fetchUser(int userId) – Retrieves a user from cache or database.
 
@@ -32,7 +32,7 @@ printFollowersInReverse() – Prints followers of each user in cache in reverse.
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 Compile and run the program:
 
@@ -43,7 +43,7 @@ Ensure socialmedia.h and any necessary database setup is available in the workin
 
 ---
 
-## 📤 Sample Output
+## Sample Output
 
 User: 1, Username: Alice, Followers: 5, Following: 3, Liked: 2
 Post: 2, Author: Bob, Likes: 10
@@ -53,7 +53,7 @@ Followers of user with id 1 in reverse:
 
 ---
 
-## 🧑‍💻 Dependencies
+## Dependencies
 
 C Compiler (gcc)
 
@@ -61,6 +61,6 @@ socialmedia.h (header file defining User, Post, Cache, and Node structures)
 
 ---
 
-## 📫 Contact
+## Contact
 
 Feel free to reach out for questions or contributions!
