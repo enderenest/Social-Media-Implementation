@@ -36,8 +36,10 @@ printFollowersInReverse() – Prints followers of each user in cache in reverse.
 
 Compile and run the program:
 
+```
 gcc socialmedia.c -o socialmedia
 ./socialmedia
+```
 
 Ensure socialmedia.h and any necessary database setup is available in the working directory.
 
@@ -45,11 +47,13 @@ Ensure socialmedia.h and any necessary database setup is available in the workin
 
 ## Sample Output
 
+```
 User: 1, Username: Alice, Followers: 5, Following: 3, Liked: 2
 Post: 2, Author: Bob, Likes: 10
 Followers of all users in UserCache in reverse:
 Followers of user with id 1 in reverse:
 [5] [3] [2]
+```
 
 ---
 
